@@ -1,0 +1,146 @@
+@media only screen and (max-width: 768px) {
+    
+    .header_links .nav_links {
+        display: none;
+    }
+
+    .cta {
+        display: none;
+    }
+
+    header {
+        display: flex!important;
+        width: 90%;
+    }
+
+    .nav_banner p {
+        width: 90%;
+    }
+
+
+    /* MAIN ===============================*/
+
+    .main .texts {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+    /* FAVORITES ================== */
+
+    .tabcontent_container .content {
+        align-items: center;
+    }
+
+    .tabcontent_container .content p, .tabcontent_container .content h3 {
+        text-align: center;
+    }
+
+
+    /* REWARDS ============================== */
+
+    .rewards_container {
+        width: 90%;
+    }
+
+    .rewards_content_2, .rewards_content_1 {
+        width: 100%;
+        max-width: 690px;
+    }
+
+
+    /* STAR CODES =========================== */
+    .codes_container {
+        width: 90%!important;
+    }
+
+    .codes_wrapper {
+        width: 100%;
+    }
+
+    .codes_questions {
+        width: 100%;
+    }
+
+
+    /* RESTRICTIONS =========================== */
+
+    .restrictions .texts {
+        width: 90%;
+    }
+
+    .restrictions_container {
+        width: 90%;
+    }
+
+    .restrictions_container .col-1-myStyle,.col-2-myStyle {
+        max-width: 100%;
+    }
+
+
+    /* FOOTER ============================== */
+
+    .footer__mobile, .footer_icons, .footer_references, .footer_copyright, footer hr {
+        width: 90%;
+    }
+
+    .footer_container {
+        display: none;
+    }
+
+    .footer_references ul{
+        flex-direction: column;
+    }
+
+    .footer_references_line {
+        display: none;
+    }
+
+    .footer__mobile {
+        display: block;
+        margin: 0 auto;
+        padding: 32px 0;
+    }
+
+    /* Style the button that is used to open and close the collapsible content */
+    .footer__button {
+        color: #444;
+        background-color: #fff;
+        cursor: pointer;
+        padding: 20px 0;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none !important;
+        font-size: 19px;
+        font-weight: 400;
+    }
+
+    .footer__button:after {
+        content: '\FE40'; /* Unicode character for "plus" sign (+) */
+        font-size: 17px;
+        font-weight: 700;
+        color: black;
+        float: right;
+        margin-left: 5px;
+    }
+
+    .active:after {
+        content: "\FE3F"; /* Unicode character for "minus" sign (-) */
+    }
+  
+    /* Style the collapsible content. Note: hidden by default */
+    .footer__content--is-open {
+        padding: 5px 0;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
+    .footer__content--is-open a {
+        font-size: 16px;
+        color: #757575!important;
+        font-weight: 400;
+    }
+}

@@ -22,32 +22,57 @@
 
 <!-------- HEADER --------->
 
-<div class="sticky">
-    <header>
-        <div class="header_links">
-            <img class="logo" src="https://www.logosurfer.com/wp-content/uploads/2018/03/starbucks-logo_0.png" alt="Logo">
-        
-            <ul class="nav_links">
-                <li><a href="#">MENU</a></li>
-                <li class="active"><a href="index.html">REWARDS</a></li>
-                <li><a href="#">GIFT CARDS</a></li>
-            </ul>
-        </div>
+<header class="header">
 
-        <ul class="cta">
-            <li><a href="#"><img src="https://img.icons8.com/ios-filled/100/000000/marker.png" width="15px" height="auto"/>Find a Store</a></li>
-            <li><a href="#"><button class="sign_in">Sign In</button></a></li>
-            <li><a href="#"><button class="join_now">Join Now</button></a></li>
+    <nav class="header__nav">
+
+        <a href="#"><img class="header__logo" src="https://www.logosurfer.com/wp-content/uploads/2018/03/starbucks-logo_0.png" alt="Logo"></a>
+
+        <ul class="nav__wrapper">
+            
+            <ul class="header__menu">
+                <li class="header__menu__items">
+                    <a href="#" class="nav-link">MENU</a>
+                </li>
+                <li class="header__menu__items">
+                    <a href="#" class="nav-link">REWARDS</a>
+                </li>
+                <li class="header__menu__items">
+                    <a href="#" class="nav-link">GIFT CARDS</a>
+                </li>
+            </ul>
+            
+            <span class="header__line"></span>
+
+            <ul class="header__cta">
+                <li class="header__menu__items">
+                    <a href="#" class="nav-link">
+                        <svg viewBox="0 0 24 24" class="valign-middle pr2" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 25px; height: 25px; overflow: visible; fill: currentcolor;"><path d="M12,11.475 C10.5214286,11.475 9.32142857,10.299 9.32142857,8.85 C9.32142857,7.401 10.5214286,6.225 12,6.225 C13.4785714,6.225 14.6785714,7.401 14.6785714,8.85 C14.6785714,10.299 13.4785714,11.475 12,11.475 M12,1.5 C7.85357143,1.5 4.5,4.7865 4.5,8.85 C4.5,14.3625 12,22.5 12,22.5 C12,22.5 19.5,14.3625 19.5,8.85 C19.5,4.7865 16.1464286,1.5 12,1.5"></path></svg>
+                        Find a Store</a>
+                </li>
+                <li class="header__menu__items">
+                    <a href="#" class="nav-link"><button class="sign_in">Sign In</button></a>
+                </li>
+                <li class="header__menu__items">
+                    <a href="#" class="nav-link"><button class="join_now">Join Now</button></a>
+                </li>
+                
+            </ul>
         </ul>
 
-        <a href="#" class="menuBar--is-close" onclick="openNav()"><i class="fas fa-bars fa-lg"></i></a>
+        <div class="header__hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
 
-    </header>
+    </nav>
 
     <div class="nav_banner">
         <p>STARBUCKS® REWARDS</p>
     </div>
-</div>
+
+</header>
     
 
 
@@ -472,8 +497,8 @@
                         </div>
                         <div class="rewards_texts">
                             <h3>Earn Stars even faster</h3>
-                            <p>Earn Stars on all purchases you make <a href="#">with our 
-                                credit card</a>  opens in new window in and outside of Starbucks. Earn 1 Star per $1 when you digitally preload your Starbucks Card with your Starbucks® Rewards Visa® Card, and earn 2 Stars per $1 when you pay with that preloaded Starbucks Card.</p>
+                            <p>Earn Stars on all purchases you make with our 
+                                <a href="#">credit card</a>  opens in new window in and outside of Starbucks. Earn 1 Star per $1 when you digitally preload your Starbucks Card with your Starbucks® Rewards Visa® Card, and earn 2 Stars per $1 when you pay with that preloaded Starbucks Card.</p>
                         </div>
                     </div>
 

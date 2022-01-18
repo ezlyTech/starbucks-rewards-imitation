@@ -25,3 +25,15 @@ function openTab(evt, tabName) {
   document.getElementById("defaultOpen").click();
 
 
+
+// Show sidebar
+
+const hamburger = document.querySelector(".header__hamburger");
+const navMenu = document.querySelector(".nav__wrapper");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("activeMenu");
+    navMenu.classList.toggle("activeMenu");
+}

@@ -13,110 +13,84 @@
 }
 
 /* HEADER ===============================*/
-header {
-    display: flex;
-    width: 85%;
-    margin: auto;
-    height: 100px;
-    align-items: center;
-    justify-content: space-between;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
 
-.sticky {
+.header {
     position: sticky;
     top: 0;
     background-color: #fff;
+    width: 100%;
 }
 
-header .header_links {
+.header__nav {
+    width: 85%;
     display: flex;
-    background-color: white;
-    height: 100%;
+    align-items: center;
+    padding: 10px 0;
+    margin: 0 auto;
 }
 
-.logo {
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: auto 40px auto 0;
-}
-
-header .header_links ul, .cta {
+.nav__wrapper, .header__menu, .header__cta {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-.nav_links {
-    margin-bottom: 3px;
+.nav__wrapper {
+    width: 100%;
+    margin: 0 auto;
 }
 
-header .header_links li, .cta li {
-    padding: 39px 12px 39px 12px;
+.nav-link:hover{
+    color: #482ff7;
 }
 
-li, a {
+.header__logo {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin-right: 27px;
+}
+
+.header__menu a, .header__cta a, button {
     font-family: 'Cabin', sans-serif;
     font-size: 14px;
     font-weight: 700;
     color: #212121;
 }
 
-li, a, button {
-    font-family: 'Cabin', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    color: #212121;
-}
-
-li a:hover {
-    color: #008248!important;
+.header__menu__items a:hover {
+    color: #008248;
     text-decoration: none;
 }
 
-/* Active link */
-.nav_links li {
-    border-bottom: 4px solid #ffffff;
-    background-color: #fff;
-}
-
-.nav_links .active {
-    border-bottom: 4px solid #008248!important;
-    background-color: #fff;
-}
-
-.cta img {
-    margin: 0 8px;
-}
-
-.cta button {
+.header__cta button {
     padding: 7px 16px;
     border: 1px solid black;
     border-radius: 20px;
 }
 
-.cta .sign_in {
+.sign_in {
     background-color: white;
 }
 
-.cta .sign_in:hover {
+.sign_in:hover {
     background-color: rgb(238, 238, 238);
     cursor: pointer;
     transition: 0.5s;
 }
 
-.cta .join_now {
+.join_now {
     background-color: black;
     color: white!important;
 }
 
-.cta .join_now:hover {
+.join_now:hover {
     background-color: rgb(59, 59, 59);
     cursor: pointer;
     transition: 0.5s;
 }
 
+/* nav Banner */
 .nav_banner {
     display: flex;
     width: 100%;
@@ -134,8 +108,20 @@ li a:hover {
     font-weight: 700;
 }
 
-.menuBar--is-close {
+
+/* Hamburger */
+.header__hamburger {
     display: none;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
 
 /* MAIN ===============================*/
@@ -196,6 +182,7 @@ li a:hover {
     font-size: 19px;
     font-weight: normal;
     text-decoration: underline;
+    color: black;
 }
 
 .main .texts a:hover {
@@ -656,6 +643,10 @@ li a:hover {
     padding-top: 16px;
 }
 
+.rewards_texts a {
+    color: #008248;
+}
+
 hr {
     margin: 48px 0;
 }
@@ -813,6 +804,9 @@ form .button:hover {
     font-weight: 400;
 }
 
+.restrictions_container a {
+    color: #008248;
+}
 
 
 /* FOOTER ====================================== */
@@ -855,7 +849,8 @@ footer {
 }
 
 .footer_links ul li a:hover {
-    color: #000000!important;
+    color: #000000;
+    text-decoration: none;
 }
 
 .footer_icons {
@@ -881,6 +876,10 @@ footer {
     transition: .5s;
 }
 
+.footer_icons ul li svg {
+    color: black;
+}
+
 .footer_icons ul li svg:hover {
     color: black;
 }
@@ -899,6 +898,7 @@ footer {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
+    color: black;
 }
 
 .footer_references ul li a:hover {

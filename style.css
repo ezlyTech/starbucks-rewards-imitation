@@ -124,6 +124,29 @@
     background-color: #101010;
 }
 
+.menu_items_wrapper {
+    display: none;
+}
+
+.menu-items-btn {
+    display: none;
+}
+
+/* Active reward tab */
+.current {
+    position: relative;
+}
+
+.current::after {
+    content: '';
+    width: 67%;
+    height: 4px;
+    background-color: #008248;
+    display: block;
+    position: absolute;
+    bottom: -48%;
+}
+
 /* MAIN ===============================*/
 
 .main {

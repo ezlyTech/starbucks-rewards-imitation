@@ -26,7 +26,9 @@ function openTab(evt, tabName) {
 
 
 
-// Show sidebar
+
+
+// Show responsive menu
 
 const hamburger = document.querySelector(".header__hamburger");
 const navMenu = document.querySelector(".nav__wrapper");
@@ -36,4 +38,29 @@ hamburger.addEventListener("click", mobileMenu);
 function mobileMenu() {
     hamburger.classList.toggle("activeMenu");
     navMenu.classList.toggle("activeMenu");
+}
+
+
+// Show responsive menuItems
+const menuItemsOpener = document.querySelector(".menu-items-btn");
+const menuItems = document.querySelector(".menu_items_wrapper");
+
+menuItemsOpener.addEventListener("click", mobileMenuItems);
+
+function mobileMenuItems() {
+    // menuItemsOpener.classList.toggle("activeMenuItems");
+    // menuItems.classList.toggle("activeMenuItems");
+    menuItemsOpener.classList.add('activeMenuItems');
+    menuItems.classList.add('activeMenuItems');
+}
+
+
+const menuItemsClose = document.querySelector(".menu-items-close");
+menuItemsClose.addEventListener("click", closeItems);
+
+function closeItems() {
+    // menuItemsClose.classList.toggle("clicked");
+    // menuItems.classList.toggle("clicked");
+    menuItemsClose.classList.remove('activeMenuItems');
+    menuItems.classList.remove('activeMenuItems');
 }

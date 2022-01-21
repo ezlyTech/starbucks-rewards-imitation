@@ -106,7 +106,7 @@
     <!-- MAIN ------------------->
 
     <div class="main">
-        <div class="texts">
+        <div class="main__texts">
             <h1>FREE COFFEE <br> IS A TAP AWAY</h1>
             <p>Join now to start earning Rewards.</p>
             <button><a href="#">Join now</a></button>
@@ -117,30 +117,30 @@
 
     <!-- STEPS ====================== -->
 
-    <section class="getting_started">
-        <div class="container">
-            <div class="title">
+    <section class="getting__started">
+        <div class="getting__started__container">
+            <div class="getting__started__title">
                 <h3>Getting started is easy</h3>
                 <p>Earn Stars and get rewarded in a few easy steps.</p>
             </div>
 
-            <div class="steps_container">
-                <div class="steps">
+            <div class="steps__container">
+                <div class="steps__items">
                     <img src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-1@2x.jpg" alt="">
-                    <p class="sb-heading">Create an account</p>
-                    <p class="desc">To get started, <a href="#">join now</a>. You can also <a href="#">join in the app</a> to get access to the full range of Starbucks® Rewards benefits.</p>
+                    <p class="steps__items__headline">Create an account</p>
+                    <p class="steps__items__desc">To get started, <a href="#">join now</a>. You can also <a href="#">join in the app</a> to get access to the full range of Starbucks® Rewards benefits.</p>
                 </div>
 
-                <div class="steps">
+                <div class="steps__items">
                     <img src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-2@2x.jpg" alt="">
-                    <p class="sb-heading">Order and pay how you’d like</p>
-                    <p class="desc">Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. <a href="#">Learn how</a> </p>
+                    <p class="steps__items__headline">Order and pay how you’d like</p>
+                    <p class="steps__items__desc">Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. <a href="#">Learn how</a> </p>
                 </div>
 
-                <div class="steps">
+                <div class="steps__items">
                     <img src="https://www.starbucks.com/weblx/images/rewards/getting-started/getting-started-3@2x.jpg" alt="">
-                    <p class="sb-heading">Earn Stars, get Rewards</p>
-                    <p class="desc">As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars!</p>
+                    <p class="steps__items__headline">Earn Stars, get Rewards</p>
+                    <p class="steps__items__desc">As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars!</p>
                 </div>
             </div>
         </div>
@@ -150,53 +150,53 @@
     <!-- FAVORITES ======================= -->
 
     <section class="favorites">
-        <div class="container">
+        <div class="favorites__container">
             <h3>Get your favorites for free</h3>
         </div>
         
         <!-- Tab links -->
         
         <div class="tab">
-            <div class="tablinks_container">
+            <div class="tablinks__container">
 
-                <button class="tablinks" onclick="openTab(event, 'First')" id="defaultOpen">25 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/></button>
-
-            </div>
-
-            <div class="tablinks_container">
-
-                <button class="tablinks" onclick="openTab(event, 'Second')">50 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/> </button>
+                <button class="tablinks__items" onclick="openTab(event, 'First')" id="defaultOpen">25 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/></button>
 
             </div>
 
-            <div class="tablinks_container">
+            <div class="tablinks__container">
 
-                <button class="tablinks" onclick="openTab(event, 'Third')">150 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/></button>
-
-            </div>
-
-            <div class="tablinks_container">
-
-                <button class="tablinks" onclick="openTab(event, 'Fourth')">200 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/></button>
+                <button class="tablinks__items" onclick="openTab(event, 'Second')">50 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/> </button>
 
             </div>
 
-            <div class="tablinks_container">
+            <div class="tablinks__container">
 
-                <button class="tablinks" onclick="openTab(event, 'Fifth')">400 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/></button>
+                <button class="tablinks__items" onclick="openTab(event, 'Third')">150 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/></button>
+
+            </div>
+
+            <div class="tablinks__container">
+
+                <button class="tablinks__items" onclick="openTab(event, 'Fourth')">200 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/></button>
+
+            </div>
+
+            <div class="tablinks__container">
+
+                <button class="tablinks__items" onclick="openTab(event, 'Fifth')">400 <img src="https://img.icons8.com/office/16/000000/filled-star--v1.png"/></button>
 
             </div>
             
         </div> 
             
-        <div class="tab_container">
+        <div class="tabs__container">
             <!-- Tab content -->
-            <div id="First" class="tabcontent">
-                <div class="tabcontent_container">
+            <div id="First" class="tabs__content">
+                <div class="tabs__items">
                     <div class="image">
                         <img src="025.webp" alt="" width="375px">
                     </div>
-                    <div class="content">
+                    <div class="tabs__items__texts">
                         <h3>Customize your drink</h3>
                         <p>Make your drink just right with an extra espresso shot, dairy substitute or a dash of your favorite syrup.
                         </p>
@@ -204,12 +204,12 @@
                 </div>
             </div>
             
-            <div id="Second" class="tabcontent">
-                <div class="tabcontent_container">
+            <div id="Second" class="tabs__content">
+                <div class="tabs__items">
                     <div class="image">
                         <img src="050.webp" alt="" width="375px">
                     </div>
-                    <div class="content">
+                    <div class="tabs__items__texts">
                         <h3>Brewed hot coffee, bakery item or hot tea</h3>
                         <p>Pair coffee cake or an almond croissant with your fresh cup of hot brew.
                         </p>
@@ -217,12 +217,12 @@
                 </div>
             </div>
             
-            <div id="Third" class="tabcontent">
-                <div class="tabcontent_container">
+            <div id="Third" class="tabs__content">
+                <div class="tabs__items">
                     <div class="image">
                         <img src="150.webp" alt="" width="375px">
                     </div>
-                    <div class="content">
+                    <div class="tabs__items__texts">
                         <h3>Handcrafted drink, hot breakfast or parfait</h3>
                         <p>Have a really good morning with a breakfast sandwich, oatmeal or your favorite drink.
                         </p>
@@ -230,12 +230,12 @@
                 </div>
             </div>
 
-            <div id="Fourth" class="tabcontent">
-                <div class="tabcontent_container">
+            <div id="Fourth" class="tabs__content">
+                <div class="tabs__items">
                     <div class="image">
                         <img src="200.webp" alt="" width="375px">
                     </div>
-                    <div class="content">
+                    <div class="tabs__items__texts">
                         <h3>Salad, sandwich or protein box</h3>
                         <p>Nourish your day with a hearty Chipotle Chicken Wrap or Eggs & Cheese Protein Box.
                         </p>
@@ -243,12 +243,12 @@
                 </div>
             </div>
 
-            <div id="Fifth" class="tabcontent">
-                <div class="tabcontent_container">
+            <div id="Fifth" class="tabs__content">
+                <div class="tabs__items">
                     <div class="image">
                         <img src="400.webp" alt="" width="375px">
                     </div>
-                    <div class="content">
+                    <div class="tabs__items__texts">
                         <h3>Select merchandise or at-home coffee</h3>
                         <p>Take home a signature cup, a bag of coffee or your choice of select coffee accessories.
                         </p>
@@ -440,35 +440,35 @@
 
     <section class="rewards">
 
-        <div class="rewards_container">
+        <div class="rewards__container">
 
-            <div class="rewards_title">
+            <div class="rewards__headline">
                 <h3>Cash or card, you earn Stars</h3>
                 <p>No matter how you pay, you can earn Stars with your morning coffee. Those Stars add up to (really delicious) Rewards.</p>
             </div>
 
-            <div class="rewards_content_container">
-                <div class="rewards_content">
-                    <div class="rewards_content_1">
+            <div class="rewards__items__container">
+                <div class="rewards__items">
+                    <div class="rewards__items__headline">
                         <h3>1★ Star per dollar</h3>
                         <p>Pay as you go</p>
                     </div>
 
-                    <div class="rewards_content_2">
-                        <div class="rewards_img">
+                    <div class="rewards__items__content">
+                        <div class="rewards__img">
                             <img src="1A.png" alt="">
                         </div>
-                        <div class="rewards_texts">
+                        <div class="rewards__texts">
                             <h3>Scan and pay separately</h3>
                             <p>Use cash or credit/debit card at the register.</p>
                         </div>
                     </div>
 
-                    <div class="rewards_content_2">
-                        <div class="rewards_img">
+                    <div class="rewards__items__content">
+                        <div class="rewards__img">
                             <img src="1B.png" alt="">
                         </div>
-                        <div class="rewards_texts">
+                        <div class="rewards__texts">
                             <h3>Save payment in the app</h3>
                             <p>Check-out faster by saving a credit/debit card or PayPal to your account. You’ll be able to order ahead or scan and pay at the register in one step.</p>
                         </div>
@@ -479,28 +479,28 @@
 
             <hr>
 
-            <div class="rewards_content_container">
-                <div class="rewards_content">
-                    <div class="rewards_content_1">
+            <div class="rewards__items__container">
+                <div class="rewards__items">
+                    <div class="rewards__items__headline">
                         <h3>2★ Star per dollar</h3>
                         <p>Add funds in the app</p>
                     </div>
 
-                    <div class="rewards_content_2">
-                        <div class="rewards_img">
+                    <div class="rewards__items__content">
+                        <div class="rewards__img">
                             <img src="2A.png" alt="">
                         </div>
-                        <div class="rewards_texts">
+                        <div class="rewards__texts">
                             <h3>Preload</h3>
                             <p>To save time and earn Stars twice as fast, add money to your digital Starbucks Card using any payment option. Scan and pay in one step or order ahead in the app.</p>
                         </div>
                     </div>
 
-                    <div class="rewards_content_2">
-                        <div class="rewards_img">
+                    <div class="rewards__items__content">
+                        <div class="rewards__img">
                             <img src="2B.png" alt="">
                         </div>
-                        <div class="rewards_texts">
+                        <div class="rewards__texts">
                             <h3>Register your gift card</h3>
                             <p>Then use it to pay through the app. You can even consolidate balances from multiple cards in one place.</p>
                         </div>
@@ -511,18 +511,18 @@
 
             <hr>
 
-            <div class="rewards_content_container">
-                <div class="rewards_content">
-                    <div class="rewards_content_1">
+            <div class="rewards__items__container">
+                <div class="rewards__items">
+                    <div class="rewards__items__headline">
                         <h3>3★ Star per dollar </h3>
                         <p>With Starbucks® Rewards Visa® Card</p>
                     </div>
 
-                    <div class="rewards_content_2">
-                        <div class="rewards_img">
+                    <div class="rewards__items__content">
+                        <div class="rewards__img">
                             <img src="3A.png" alt="">
                         </div>
-                        <div class="rewards_texts">
+                        <div class="rewards__texts">
                             <h3>Earn Stars even faster</h3>
                             <p>Earn Stars on all purchases you make with our 
                                 <a href="#">credit card</a>  opens in new window in and outside of Starbucks. Earn 1 Star per $1 when you digitally preload your Starbucks Card with your Starbucks® Rewards Visa® Card, and earn 2 Stars per $1 when you pay with that preloaded Starbucks Card.</p>
@@ -541,8 +541,8 @@
 
     <section class="codes">
 
-        <div class="codes_container">
-            <div class="codes_wrapper">
+        <div class="codes__container">
+            <div class="codes__form">
                 <h3>Star Codes</h3>
                 <p>Yesssss. You’ve got Stars in your hand. Enter your code here and we’ll add Stars to your account.</p>
 
@@ -552,12 +552,12 @@
                 </form>
             </div>
 
-            <div class="codes_links">
+            <div class="codes__links">
                 <p>Have a receipt but don't have a code? </p>
                 <p>Go to <a href="#">starbucks-stars.com</a> to upload your receipt and collect your Stars.</p>
             </div>
     
-            <div class="codes_questions">
+            <div class="codes__questions">
                 <h3>Questions?</h3>
                 <p>We want to help in any way we can. You can ask your barista anytime or we’ve answered the most commonly asked questions <a href="">right over here</a>.</p>
             </div>
@@ -571,11 +571,11 @@
 
     <section class="restrictions">
 
-        <p class="texts">At participating stores. Restrictions apply. </p>
+        <p class="restrictions__texts">At participating stores. Restrictions apply. </p>
 
-        <div class="restrictions_container">
+        <div class="restrictions__container">
 
-            <div class="col-1-myStyle">
+            <div class="restrictions__item1">
                 <h3>EARNING STARS</h3>
                 <p>Stars cannot be earned on purchases of alcohol, Starbucks Cards or Starbucks Card reloads. 
                 <br> <br>
@@ -588,7 +588,7 @@
                 <p>Free refills available during same in-store visit only. To qualify for the Birthday Reward, you must have made at least one Star-earning transaction. </p>
             </div>
 
-            <div class="col-2-myStyle">
+            <div class="restrictions__item2">
                 <h3>TERMS OF USE</h3>
                 <p>For full program details visit <a href="#">starbucks.com/rewards/terms</a>  
                 <br> <br>
@@ -612,8 +612,8 @@
 <!-- FOOTER ============================ -->
 
 <footer>
-    <div class="footer_container">
-        <div class="footer_links">
+    <div class="footer__container">
+        <div class="footer__links">
             <h3>About Us</h3>
             <ul>
                 <li><a href="#">Our Company</a></li>
@@ -625,7 +625,7 @@
             </ul>
         </div>
 
-        <div class="footer_links">
+        <div class="footer__links">
             <h3>Careers</h3>
             <ul>
                 <li><a href="#">Culture and Values</a></li>
@@ -637,7 +637,7 @@
             </ul>
         </div>
 
-        <div class="footer_links">
+        <div class="footer__links">
             <h3>Social Impact</h3>
             <ul>
                 <li><a href="#">People</a></li>
@@ -646,7 +646,7 @@
             </ul>
         </div>
         
-        <div class="footer_links">
+        <div class="footer__links">
             <h3>For Business Partners</h3>
             <ul>
                 <li><a href="#">Landlord Support Center</a></li>
@@ -656,7 +656,7 @@
             </ul>
         </div>
 
-        <div class="footer_links">
+        <div class="footer__links">
             <h3>Order and Pickup</h3>
             <ul>
                 <li><a href="#">Order on the App</a></li>
@@ -730,7 +730,7 @@
     <hr>
 
 
-    <div class="footer_icons">
+    <div class="footer__icons">
         <ul>
             <li><a href="#"><svg viewBox="0 0 24 24" class="valign-middle absoluteCenter" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 32px; height: 32px; overflow: visible; fill: currentcolor;"><path d="M12,0 C18.6274131,0 24,5.37261901 24,12.0000716 C24,18.627381 18.6274131,24 12,24 C5.37258694,24 0,18.627381 0,12.0000716 C0,5.37261901 5.37258694,0 12,0 Z M11.0669976,14 C9.95068692,14.0009568 8.6027256,14.1878544 7.49869423,14.4956294 C7.1391459,14.5957759 6.94143571,14.9349663 7.01538732,15.323911 C7.08630361,15.6969088 7.39839046,15.9206437 7.74883281,15.8300653 C8.54008748,15.6259451 9.33810265,15.4781174 10.1468794,15.4098647 C11.1130794,15.3282166 12.0741744,15.3684028 13.0286469,15.5672606 C14.1176396,15.7941848 15.1397171,16.2280998 16.0883949,16.8908526 C16.3912378,17.1024678 16.747061,16.996421 16.9174532,16.6588253 C17.0846722,16.3276084 16.9922326,15.9219194 16.6909074,15.7184371 C16.4242125,15.5382372 16.1546202,15.3615456 15.8770258,15.205585 C14.3588102,14.3530642 12.7453957,14.0017542 11.0669976,14 Z M10.1375115,11.0003442 L9.77055252,11.0048078 C8.68426674,11.0479717 7.61755495,11.2034929 6.57584646,11.49243 C6.14064634,11.6131584 5.91075895,11.9889467 6.03234638,12.3691822 C6.15507681,12.7528185 6.57698947,12.9458793 7.02147652,12.8358765 C7.38895345,12.7448397 7.75828776,12.6556341 8.1321941,12.5915421 C9.5848138,12.3422374 11.0434343,12.3367438 12.5037693,12.5345134 C14.0365424,12.7419621 15.4914481,13.1568596 16.8266238,13.8930018 C17.2083883,14.103459 17.6680202,13.9939794 17.8937642,13.6477519 C18.1073637,13.320098 17.9912056,12.8938209 17.614156,12.6938277 C17.2519655,12.5018134 16.8857744,12.313069 16.5065817,12.1523159 C14.6039028,11.3459341 12.5917809,11.001407 10.504792,11.0032382 C10.2600455,11.0032382 10.0148704,10.9949978 9.77055252,11.0048078 Z M11.0635356,7.01538228 C10.2184059,6.97905829 9.3745573,7.0079312 8.53227456,7.09284241 C7.5586031,7.1912587 6.59774312,7.36511712 5.66051317,7.67557859 C5.1689799,7.83857086 4.89609567,8.38560397 5.0370218,8.90997339 C5.18164902,9.44769266 5.68015742,9.75008213 6.17923521,9.59003924 C7.37155569,9.20770594 8.59405429,9.0489049 9.83078786,9.00947629 C11.1386962,8.96771922 12.4379213,9.07187905 13.7249043,9.33685791 C15.0971547,9.61953308 16.4163087,10.0659767 17.6311204,10.8388705 C17.7602315,10.9209876 17.918809,10.947532 18.0638633,11 C18.0668526,10.9917728 18.0701267,10.9835455 18.0732584,10.9753183 C18.1337569,10.9681777 18.195252,10.9664702 18.2544694,10.9528099 C18.6473544,10.8626208 18.9228009,10.5436216 18.9889935,10.1064919 C19.0467875,9.72508998 18.8742597,9.30969253 18.5354676,9.11099719 C18.0779559,8.84244802 17.6178819,8.57219131 17.1390177,8.35455782 C15.1965147,7.47176064 13.154794,7.1054161 11.0635356,7.01538228 Z"></path><circle class="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg></a></li>
             <li><a href="#"><svg viewBox="0 0 24 24" class="valign-middle absoluteCenter" preserveAspectRatio="xMidYMid meet" aria-hidden="true" focusable="false" style="width: 32px; height: 32px; overflow: visible; fill: currentcolor;"><path d="M11.9997802,0 C18.6169827,0 24,5.38345699 24,12.0002198 C24,18.6169827 18.6169827,24 11.9997802,24 C5.38301731,24 0,18.6169827 0,12.0002198 C0,5.38345699 5.38301731,0 11.9997802,0 Z M15.4043684,4.8 L12.7777895,4.8 C11.2364211,4.8 9.98636842,5.96104896 9.98636842,7.39365487 L9.98636842,9.44903723 L8.59515789,9.44903723 C8.48763158,9.44903723 8.4,9.53002017 8.4,9.6303686 L8.4,11.7623327 C8.4,11.862241 8.48763158,11.9432239 8.59515789,11.9432239 L9.98636842,11.9432239 L9.98636842,19.0186686 C9.98636842,19.1190171 10.074,19.2 10.1815263,19.2 L12.9639474,19.2 C13.0719474,19.2 13.1591053,19.1190171 13.1591053,19.0186686 L13.1591053,11.9432239 L15.1765263,11.9432239 C15.2778947,11.9432239 15.3626842,11.8714836 15.3707368,11.7772969 L15.5649474,9.64533284 C15.5748947,9.53970292 15.4844211,9.44903723 15.3702632,9.44903723 L13.1591053,9.44903723 L13.1591053,7.93632863 C13.1591053,7.58202824 13.4688947,7.29462681 13.8502105,7.29462681 L15.4043684,7.29462681 C15.5123684,7.29462681 15.6,7.21320374 15.6,7.11329543 L15.6,4.98133138 C15.6,4.88142307 15.5123684,4.8 15.4043684,4.8 Z"></path><circle class="sb-icon-hover" fill="transparent" cx="50%" cy="50%" r="75%"></circle></svg></a></li>
@@ -741,19 +741,19 @@
         </ul>
     </div>
 
-    <div class="footer_references">
+    <div class="footer__references">
         <ul>
             <li><a href="#">Privacy Policy</a></li>
-            <li class="footer_references_line">|</li>
+            <li class="references__line">|</li>
             <li><a href="#"> Terms of Use</a></li>
-            <li class="footer_references_line">|</li>
+            <li class="references__line">|</li>
             <li><a href="#"> CA Supply Chain Act</a></li>
-            <li class="footer_references_line">|</li>
+            <li class="references__line">|</li>
             <li><a href="#"> Cookie Preferences</a></li>
         </ul>
     </div>
 
-    <div class="footer_copyright">
+    <div class="footer__copyright">
         <p>© 2022 Starbucks Coffee Company. All rights reserved.</p>
     </div>
 </footer>

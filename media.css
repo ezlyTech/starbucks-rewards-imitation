@@ -153,7 +153,7 @@
 
     /* MAIN ===============================*/
 
-    .main .texts {
+    .main__texts {
         width: 90%;
         margin: 0 auto;
     }
@@ -161,71 +161,71 @@
 
     /* FAVORITES ================== */
 
-    .tabcontent_container .content {
+    .tabs__items__texts {
         align-items: center;
     }
 
-    .tabcontent_container .content p, .tabcontent_container .content h3 {
+    .tabs__items__texts p, .tabs__items__texts h3 {
         text-align: center;
     }
 
 
     /* REWARDS ============================== */
 
-    .rewards_container {
+    .rewards__container {
         width: 90%;
     }
 
-    .rewards_content_2, .rewards_content_1 {
+    .rewards__items__content, .rewards__items__headline {
         width: 100%;
         max-width: 690px;
     }
 
 
     /* STAR CODES =========================== */
-    .codes_container {
+    .codes__container {
         width: 90%!important;
     }
 
-    .codes_wrapper {
+    .codes__form {
         width: 100%;
     }
 
-    .codes_questions {
+    .codes__questions {
         width: 100%;
     }
 
 
     /* RESTRICTIONS =========================== */
 
-    .restrictions .texts {
+    .restrictions__texts {
         width: 90%;
     }
 
-    .restrictions_container {
+    .restrictions__container {
         width: 90%;
     }
 
-    .restrictions_container .col-1-myStyle,.col-2-myStyle {
+    .restrictions__container .restrictions__item1,.restrictions__item2 {
         max-width: 100%;
     }
 
 
     /* FOOTER ============================== */
 
-    .footer__mobile, .footer_icons, .footer_references, .footer_copyright, footer hr {
+    .footer__mobile, .footer__icons, .footer__references, .footer__copyright, footer hr {
         width: 90%;
     }
 
-    .footer_container {
+    .footer__container {
         display: none;
     }
 
-    .footer_references ul{
+    .footer__references ul{
         flex-direction: column;
     }
 
-    .footer_references_line {
+    .references__line {
         display: none;
     }
 

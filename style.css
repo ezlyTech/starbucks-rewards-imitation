@@ -161,25 +161,25 @@
     width: 100%;
 }
 
-.main .texts {
+.main__texts {
     width: 75%;
     margin: 0 auto;
 }
 
-.main .texts h1  {
+.main__texts h1  {
     font-size: 36px;
     line-height: 46px;
     font-weight: 600;
 }
 
-.main .texts p  {
+.main__texts p  {
     font-size: 19px;
     line-height: 29px;
     font-weight: 400;
     margin-top: 16px;
 }
 
-.main .texts button{
+.main__texts button{
     font-weight: 400;
     padding: 7px 16px;
     border: 1px solid black;
@@ -189,26 +189,26 @@
     border: none;
 }
 
-.main .texts button:hover{
+.main__texts button:hover{
     background-color: #068b4f;
     transition: 0.5s;
     color: white;
 }
 
-.main .texts button a {
+.main__texts button a {
     font-size: 16px;
     color: white;
     text-decoration: none;
 }
 
-.main .texts a {
+.main__texts a {
     font-size: 19px;
     font-weight: normal;
     text-decoration: underline;
     color: black;
 }
 
-.main .texts a:hover {
+.main__texts a:hover {
     text-decoration: none;
     color: black;
 }
@@ -216,32 +216,32 @@
 
 /* STEPS ============================ */
 
-.getting_started {
+.getting__started {
     margin: 128px  0;
     width: 100%;
 }
 
-.getting_started .container {
+.getting__started__container {
     width: 85%;
     margin: 0 auto;
     text-align: center;
 }
 
-.getting_started .container .title h3{
+.getting__started__title h3{
     font-size: 28px;
     line-height: 39px;
     font-weight: 600;
     margin: 0;
 }
 
-.getting_started .container .title p{
+.getting__started__title p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     padding-top: 16px;
 }
 
-.getting_started .container .steps_container {
+.steps__container {
     display: flex;
     gap: 24px;
     padding-top: 48px;
@@ -251,34 +251,34 @@
     width: 100%;
 }
 
-.steps {
+.steps__items {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 350px;
 }
 
-.getting_started .container .steps_container .steps img {
+.steps__items img {
     width: 48px;
     height: auto;
     padding-bottom: 24px;
 }
 
-.getting_started .container .steps_container .steps .sb-heading {
+.steps__items__headline {
     font-size: 19px;
     line-height: 1.53;
     font-weight: 600;
     margin: 0;
 }
 
-.getting_started .container .steps_container .steps .desc {
+.steps__items__desc {
     padding-top: 16px;
     line-height: 24px;
     font-weight: normal;
     font-size: 16px;
 }
 
-.getting_started .container .steps_container .steps a {
+.steps__items a {
     color: #008248;
     text-decoration: underline;
     line-height: 24px;
@@ -286,7 +286,7 @@
     font-size: 16px;
 }
 
-.getting_started .container .steps_container .steps a:hover {
+.steps__items a:hover {
     text-decoration: none;
 }
 
@@ -298,7 +298,7 @@
     margin-bottom: 100px;
 }
 
-.favorites .container {
+.favorites__container {
     width: 85%;
     margin: 0 auto;
     text-align: center;
@@ -318,12 +318,12 @@
     justify-content: center;
 }
 
-.tablinks_container {
+.tablinks__container {
     display: flex;
     flex-direction: column;
 }
 
-.tab_container {
+.tabs__container {
     width: 100%;
     background-color: #D4E9E2;
     box-shadow: 0px 1px 5px grey inset;
@@ -354,7 +354,7 @@
     to {opacity: 1;}
 }
 
-.tabcontent {
+.tabs__content {
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
@@ -362,14 +362,14 @@
     animation: fadeEffect 1s; 
 }
 
-.tabcontent_container {
+.tabs__items {
     display: flex;
     justify-content: center;
     padding: 32px 0;
     flex-wrap: wrap;
 }
 
-.tabcontent_container .content {
+.tabs__items__texts {
     width: 375px;
     display: flex;
     flex-direction: column;
@@ -377,14 +377,14 @@
     padding-left: 16px;
 }
 
-.tabcontent_container .content h3 {
+.tabs__items__texts h3 {
     font-size: 24px;
     line-height: 36px;
     font-weight: 600;
     padding-bottom: 16px;
 }
 
-.tabcontent_container .content p {
+.tabs__items__texts p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -588,37 +588,37 @@
     margin-top: 128px;
 }
 
-.rewards_container {
+.rewards__container {
     width: 75%;
     margin: 0 auto;
     padding: 48px 0;
 }
 
 
-.rewards_title {
+.rewards__headline {
     text-align: center;
     margin: 0 auto 84px auto;
     max-width: 680px;
 }
 
-.rewards_title h3 {
+.rewards__headline h3 {
     font-size: 28px;
     line-height: 39px;
     font-weight: 600;
     padding-bottom: 16px;
 }
 
-.rewards_title p {
+.rewards__headline p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
 }
 
-.rewards_content_container {
+.rewards__items__container {
     display: flex;
 }
 
-.rewards_content {
+.rewards__items {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -626,47 +626,47 @@
     flex-wrap: wrap;
 }
 
-.rewards_content_1 {
+.rewards__items__headline {
     max-width: 190px;
 }
 
-.rewards_content_1 h3 {
+.rewards__items__headline h3 {
     font-size: 24px;
     line-height: 36px;
     font-weight: 600;
 }
 
-.rewards_content_1 p {
+.rewards__items__headline p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
 }
 
-.rewards_content_2 {
+.rewards__items__content {
     display: flex;
     padding: 0 24px;
     max-width: 456px;
 }
 
-.rewards_content_2 img{
+.rewards__items__content img{
     width: 112px;
     padding-right: 16px;
 }
 
-.rewards_texts h3 {
+.rewards__texts h3 {
     font-size: 19px;
     line-height: 29px;
     font-weight: 600;
 }
 
-.rewards_texts p {
+.rewards__texts p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     padding-top: 16px;
 }
 
-.rewards_texts a {
+.rewards__texts a {
     color: #008248;
 }
 
@@ -682,19 +682,19 @@ hr {
     margin: 128px 0;
 }
 
-.codes_container {
+.codes__container {
     width: 60%;
     margin: 0 auto;
 }
 
-.codes_container .codes_wrapper h3 {
+.codes__form h3 {
     padding-bottom: 16px;
     font-size: 28px;
     font-weight: 600;
     line-height: 39px;
 }
 
-.codes_container .codes_wrapper p {
+.codes__form p {
     padding-bottom: 16px;
     font-size: 16px;
     font-weight: 400;
@@ -730,21 +730,21 @@ form .button:hover {
     transition: 0.5s;
 }
 
-.codes_wrapper {
+.codes__form {
     width: 50%;
 }
 
-.codes_links {
+.codes__links {
     margin: 32px 0 128px 0;
 }
 
-.codes_links p {
+.codes__links p {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.codes_links a {
+.codes__links a {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -752,24 +752,24 @@ form .button:hover {
     text-decoration: underline;
 }
 
-.codes_links a:hover {
+.codes__links a:hover {
     text-decoration: none;
 }
 
-.codes_questions h3 {
+.codes__questions h3 {
     padding-bottom: 16px;
     font-size: 28px;
     font-weight: 600;
     line-height: 39px;
 }
 
-.codes_questions p {
+.codes__questions p {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.codes_questions a {
+.codes__questions a {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -777,11 +777,11 @@ form .button:hover {
     text-decoration: underline;
 }
 
-.codes_questions a:hover {
+.codes__questions a:hover {
     text-decoration: none;
 }
 
-.codes_questions {
+.codes__questions {
     width: 50%;
 }
 
@@ -793,7 +793,7 @@ form .button:hover {
     background-color: #F9F9F9;
 }
 
-.restrictions .texts {
+.restrictions__texts {
     width: 75%;
     margin: 0 auto;
     font-size: 14px;
@@ -801,7 +801,7 @@ form .button:hover {
     font-weight: 400;
 }
 
-.restrictions_container {
+.restrictions__container {
     width: 75%;
     margin: 0 auto;
     display: flex;
@@ -809,11 +809,11 @@ form .button:hover {
     gap: 32px;
 }
 
-.restrictions_container .col-1-myStyle,.col-2-myStyle {
+.restrictions__item1,.restrictions__item2 {
     max-width: 48%;
 }
 
-.restrictions_container .col-1-myStyle h3,.col-2-myStyle h3{
+.restrictions__item1 h3,.restrictions__item2 h3{
     padding: 32px 0 16px 0;
     font-size: 14px;
     line-height: 21px;
@@ -821,13 +821,13 @@ form .button:hover {
     font-weight: 700;
 }
 
-.restrictions_container .col-1-myStyle p,.col-2-myStyle p{
+.restrictions__item1 p,.restrictions__item2 p{
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
 }
 
-.restrictions_container a {
+.restrictions__container a {
     color: #008248;
 }
 
@@ -840,7 +840,7 @@ footer {
     box-shadow: 0px 1px 5px grey ;
 }
 
-.footer_container {
+.footer__container {
     width: 75%;
     display: flex;
     gap: 32px;
@@ -848,92 +848,92 @@ footer {
     padding: 48px 0;
 }
 
-.footer_links {
+.footer__links {
     max-width: 190px;
 }
 
-.footer_links h3 {
+.footer__links h3 {
     margin-bottom: 24px;
     font-size: 19px;
     line-height: 29px;
     font-weight: 400;
 }
 
-.footer_links ul li {
+.footer__links ul li {
     padding: 8px 0;
     margin-bottom: 8px;
 }
 
-.footer_links ul li a {
+.footer__links ul li a {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 
-.footer_links ul li a:hover {
+.footer__links ul li a:hover {
     color: #000000;
     text-decoration: none;
 }
 
-.footer_icons {
+.footer__icons {
     width: 75%;
     margin: 42px auto 4px auto;
 }
 
-.footer_icons ul {
+.footer__icons ul {
     display: flex;
     gap: 5px;
 }
 
-.footer_icons ul li {
+.footer__icons ul li {
     padding: 7px 7px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
 }
 
-.footer_icons ul li:hover {
+.footer__icons ul li:hover {
     padding: 7px 7px;
     background-color: rgb(236, 236, 236);
     border-radius: 50%;
     transition: .5s;
 }
 
-.footer_icons ul li svg {
+.footer__icons ul li svg {
     color: black;
 }
 
-.footer_icons ul li svg:hover {
+.footer__icons ul li svg:hover {
     color: black;
 }
 
-.footer_references {
+.footer__references {
     width: 75%;
     margin: 16px auto 4px auto;
 }
 
-.footer_references ul {
+.footer__references ul {
     display: flex;
     gap: 15px;
 }
 
-.footer_references ul li a {
+.footer__references ul li a {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: black;
 }
 
-.footer_references ul li a:hover {
+.footer__references ul li a:hover {
     text-decoration: underline;
     color: black;
 }
 
-.footer_references .line {
+.footer__references .line {
     padding: 0 24px;
 }
 
-.footer_copyright {
+.footer__copyright {
     width: 75%;
     margin: 0 auto;
     padding: 16px 0 64px 0;

@@ -1,12 +1,3 @@
-// $('.slider').slick({
-//     dots: true,
-//     infinite: false,
-//     slidesToShow: 1,
-//     prevArrow: '<span class="priv_arrow"><i class="fas fa-angle-left fa-2x"></i></i></span>',
-//     nextArrow: '<span class="next_arrow"><i class="fas fa-angle-right fa-2x"></i></span>',
-// });
-
-
 $(document).ready(function(){
     $('.your-class').slick({
         dots: true,
